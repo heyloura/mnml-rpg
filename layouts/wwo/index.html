@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+<body>
+  <ol>
+<li><a href="https://heyloura.com/wwo-2024-01-nature/">Nature</a></li>
+<li><a href="https://heyloura.com/wwo-2024-02-css/">CSS</a></li>
+<li>Color</li>
+<li>Lists</li>
+<li>Food</li>
+<li>Notifications</li>
+<li>Science</li>
+<li>Hashtags</li>
+<li>Blessed</li>
+<li>Art</li>
+<li>API</li>
+<li>Ritual</li>
+<li>GIFs</li>
+<li>History</li>
+<li>Audio</li>
+<li>Social</li>
+<li>Dimensions</li>
+<li>Words</li>
+<li>Data</li>
+<li>Capitalism</li>
+<li>Memes</li>
+<li>Bugs</li>
+<li>IRL</li>
+<li>Cursed</li>
+<li>Interactive</li>
+<li>Chat</li>
+<li>Nostalgia</li>
+<li>Generative</li>
+<li>Forms</li>
+<li>Emoji</li>
+<li>Spooky</li>
+  </ol>
+<script>
+// when everything is loaded
+// set up an identifier so we have something to scope off of.
+document.addEventListener("DOMContentLoaded", (event) => {
+  let body = document.querySelector('body');
+  let uuid = window.frameElement.getAttribute('id') ?? self.crypto.randomUUID();
+  
+  for(let attr of window.frameElement.attributes)
+  {  
+    for (let child of body.children) { 
+      if(attr.name.includes('data-') && !attr.name.includes('data-scope')) {
+        child.setAttribute(attr.name, attr.value);
+      } 
+      if(!child.getAttribute('data-scope')) {
+        child.setAttribute('data-scope', uuid);
+      }
+    }
+  }
+});
+  
+</script>
+</body>
+
+</html>
