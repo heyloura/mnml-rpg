@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>Color - Weird Website October 2024</title>
+  <meta name="description" content="Wierd Website October 2024">
+  <!--<link rel="preload" as="fetch" href="https://octothorp.es/?uri=https://heyloura.com/wwo-2024-03-color/" >
+  <link rel="octo:octothorpes" href="weirdweboctober" >
+  <link rel="octo:octothorpes" href="Color" >-->
+  <link rel="shortcut icon" href="https://micro.blog/{{ .Site.Author.username }}/favicon.png" type="image/x-icon" />
+    {{ if .RSSLink -}}
+      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+      <link href="{{ "podcast.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="Podcast" />
+      <link rel="alternate" type="application/json" title="{{ .Site.Title }}" href="{{ "feed.json" | absURL }}" />
+      <link rel="EditURI" type="application/rsd+xml" href="{{ "rsd.xml" | absURL }}" />
+    {{ end -}}
+	<link rel="me" href="https://micro.blog/{{ .Site.Author.username }}" />
+	<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
+	<link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
+	<link rel="micropub" href="https://micro.blog/micropub" />
+	<link rel="microsub" href="https://micro.blog/microsub" />
+	<link rel="webmention" href="https://micro.blog/webmention" />
+	<link rel="subscribe" href="https://micro.blog/users/follow" />
+<style>
+            /* https://alvaromontoro.com/blog/68055/ten-css-one-liners-for-almost-every-project */
+            /* https://www.swyx.io/css-100-bytes */
+            body, input, select {
+                max-width: clamp(320px, 90%, 1000px);
+                margin: auto;
+                font-size: 1.25rem;
+                line-height: 1.5;
+                accent-color: #080;
+                padding: 1em;
+                font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                color: #1d1d1d;
+            }
+            input, select {
+                padding: 0.25em;
+            }
+            img {
+                max-width: 100%;
+            }
+            p, ul {
+                max-width: 65ch;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                text-wrap: balance;
+                font-size: 1.5rem;
+                margin: 2em 0 1em;
+            }
+/*             :is(tbody, table) > tr:nth-child(odd) {
+                background: #0001;
+            } */
+            td, th {
+                padding: 0.5em;
+            }
+            @media (prefers-reduced-motion) {
+                *, *::before, *::after {
+                    animation-duration: 0s !important;
+                    transition: none !important;
+                    scroll-behavior: auto !important;
+                }
+            }
+	td {text-shadow: 0 1px 1px rgba(255, 255, 255, 0.20);}
+	tr td:first {width:3em;height:3em;}
+</style>
+</head>
+
+<body>
+  <aside>
+	<details><summary>Weird Web October 2024 Submissions</summary>
+	  	<iframe aria-busy="true"
+		      id="wwo-index"
+		      src="/wwo-2024-00-index" 
+		      loading="lazy"
+		      onload="disappear(this)"></iframe>
+	  </details>  
+  </aside>
+	<h1>HTML Named Colors</h1>
+  <main>
+	<section>
+	  <h2>Black/Grey/White</h2>
+		  <table>
+			  <thead>
+				  <tr><th>Color</th><th>Name</th><th>Hex</th></tr>	  
+			  </thead>
+			  <tbody>
+				  <tr><td style="background-color:black;"></td><td>black</td><td>#000000</td></tr>
+				  <tr><td style="background-color:dimgray;"></td><td>dimgray</td><td>#696969</td></tr>
+				  <tr><td style="background-color:gray;"></td><td>gray</td><td>#808080</td></tr>
+				  <tr><td style="background-color:darkgray;"></td><td>darkgray</td><td>#a9a9a9</td></tr>
+				  <tr><td style="background-color:silver;"></td><td>silver</td><td>#c0c0c0</td></tr>
+				  <tr><td style="background-color:lightgray;"></td><td>lightgray</td><td>#d3d3d3</td></tr>
+				  <tr><td style="background-color:gainsboro;"></td><td>gainsboro</td><td>#dcdcdc</td></tr>
+				  <tr><td style="background-color:whitesmoke;"></td><td>whitesmoke</td><td>#f5f5f5</td></tr>
+				  <tr><td style="background-color:white;"></td><td>white</td><td>#ffffff</td></tr>
+			  </tbody>
+		  </table>
+	 </section>
+	  <section>
+	  <h2>Purple</h2>
+		  <table>
+			  <thead>
+				  <tr><th>Color</th><th>Name</th><th>Hex</th></tr>	  
+			  </thead>
+			  <tbody>
+				  <tr><td style="background-color:indigo;"></td><td>indigo</td><td>#4b0082</td></tr>
+				  <tr><td style="background-color:blueviolet;"></td><td>blueviolet</td><td>#8a2be2</td></tr>
+				  <tr><td style="background-color:darkmagenta;"></td><td>darkmagenta</td><td>#8b008b</td></tr>
+				  <tr><td style="background-color:darkorchid;"></td><td>darkorchid</td><td>#9932cc</td></tr>
+				  <tr><td style="background-color:darkviolet;"></td><td>darkviolet</td><td>#9400d3</td></tr>
+				  <tr><td style="background-color:lavender;"></td><td>lavender</td><td>#e6e6fa</td></tr>
+				  <tr><td style="background-color:ghostwhite;"></td><td>ghostwhite</td><td>#f8f8ff</td></tr>
+				  <tr><td style="background-color:mediumorchid;"></td><td>mediumorchid</td><td>#ba55d3</td></tr>
+				  <tr><td style="background-color:mediumpurple;"></td><td>mediumpurple</td><td>#9370db</td></tr>
+				  <tr><td style="background-color:mediumslateblue;"></td><td>mediumslateblue</td><td>#7b68ee</td></tr>
+			  	  <tr><td style="background-color:plum;"></td><td>plum</td><td>#dda0dd</td></tr>
+				  <tr><td style="background-color:purple;"></td><td>purple</td><td>#800080</td></tr>
+				  <tr><td style="background-color:rebeccapurple;"></td><td>rebeccapurple</td><td>#663399</td></tr>
+			  	  <tr><td style="background-color:thistle;"></td><td>thistle</td><td>#d8bfd8</td></tr>
+			  </tbody>
+		  </table>
+	 </section>
+	  <section>
+	  <h2>Blue</h2>
+		  <table>
+			  <thead>
+				  <tr><th>Color</th><th>Name</th><th>Hex</th></tr>	  
+			  </thead>
+			  <tbody>
+				  <tr><td style="background-color:blue;"></td><td>blue</td><td>#0000ff</td></tr>
+				  <tr><td style="background-color:aqua;"></td><td>aqua</td><td>#00ffff</td></tr>
+				  <tr><td style="background-color:aliceblue;"></td><td>aliceblue</td><td>#f0f8ff</td></tr>
+				  <tr><td style="background-color:azure;"></td><td>azure</td><td>#f0ffff</td></tr>
+				  <tr><td style="background-color:cadetblue;"></td><td>cadetblue</td><td>#5f9ea0</td></tr>
+				  <tr><td style="background-color:cornflowerblue;"></td><td>cornflowerblue</td><td>#6495ed</td></tr>
+				  <tr><td style="background-color:darkblue;"></td><td>darkblue</td><td>#00008b</td></tr>
+				  <tr><td style="background-color:darkcyan;"></td><td>darkcyan</td><td>#008b8b</td></tr>
+				  <tr><td style="background-color:darkslateblue;"></td><td>darkslateblue</td><td>#483d8b</td></tr>
+				  <tr><td style="background-color:darkslategray;"></td><td>darkslategray</td><td>#2f4f4f</td></tr>
+				  <tr><td style="background-color:darkturquoise;"></td><td>darkturquoise</td><td>#00ced1</td></tr>
+				  <tr><td style="background-color:deepskyblue;"></td><td>deepskyblue</td><td>#00bfff</td></tr>
+				  <tr><td style="background-color:dodgerblue;"></td><td>dodgerblue</td><td>#1e90ff</td></tr>
+				  <tr><td style="background-color:lightblue;"></td><td>lightblue</td><td>#add8e6</td></tr>
+				  <tr><td style="background-color:lightcyan;"></td><td>lightcyan</td><td>#e0ffff</td></tr>
+				  <tr><td style="background-color:lightskyblue;"></td><td>lightskyblue</td><td>#87cefa</td></tr>
+				  <tr><td style="background-color:lightslategray;"></td><td>lightslategray</td><td>#778899</td></tr>
+				  <tr><td style="background-color:lightsteelblue;"></td><td>lightsteelblue</td><td>#b0c4de</td></tr>
+				  <tr><td style="background-color:mediumblue;"></td><td>mediumblue</td><td>#0000cd</td></tr>
+				  <tr><td style="background-color:midnightblue;"></td><td>midnightblue</td><td>#191970</td></tr>
+				  <tr><td style="background-color:navy;"></td><td>navy</td><td>#000080</td></tr>
+				  <tr><td style="background-color:paleturquoise;"></td><td>paleturquoise</td><td>#afeeee</td></tr>
+				  <tr><td style="background-color:powderblue;"></td><td>powderblue</td><td>#b0e0e6</td></tr>
+				  <tr><td style="background-color:royalblue;"></td><td>royalblue</td><td>#4169e1</td></tr>
+				  <tr><td style="background-color:skyblue;"></td><td>skyblue</td><td>#87ceeb</td></tr>
+				  <tr><td style="background-color:slateblue;"></td><td>slateblue</td><td>#6a5acd</td></tr>
+				  <tr><td style="background-color:slategray;"></td><td>slategray</td><td>#708090</td></tr>
+				  <tr><td style="background-color:steelblue;"></td><td>steelblue</td><td>#4682b4</td></tr>
+				  <tr><td style="background-color:turquoise;"></td><td>turquoise</td><td>#40e0d0</td></tr>
+			  </tbody>
+		  </table>
+	 </section>
+	   <section>
+	  <h2>Green</h2>
+		  <table>
+			  <thead>
+				  <tr><th>Color</th><th>Name</th><th>Hex</th></tr>	  
+			  </thead>
+			  <tbody>
+				  <tr><td style="background-color:aquamarine;"></td><td>aquamarine</td><td>#7fffd4</td></tr>
+				  <tr><td style="background-color:chartreuse;"></td><td>chartreuse</td><td>#7fff00</td></tr>
+				  <tr><td style="background-color:darkgreen;"></td><td>darkgreen</td><td>#006400</td></tr>
+				  <tr><td style="background-color:darkolivegreen;"></td><td>darkolivegreen</td><td>#556b2f</td></tr>
+				  <tr><td style="background-color:darkseagreen;"></td><td>darkseagreen</td><td>#8fbc8f</td></tr>
+				  <tr><td style="background-color:forestgreen;"></td><td>forestgreen</td><td>#228b22</td></tr>
+				  <tr><td style="background-color:green;"></td><td>green</td><td>#008000</td></tr>
+				  <tr><td style="background-color:greenyellow;"></td><td>greenyellow</td><td>#adff2f</td></tr>
+				  <tr><td style="background-color:honeydew;"></td><td>honeydew</td><td>#f0fff0</td></tr>
+				  <tr><td style="background-color:lawngreen;"></td><td>lawngreen</td><td>#7cfc00</td></tr>
+				  <tr><td style="background-color:lightgreen;"></td><td>lightgreen</td><td>#90ee90</td></tr>
+				  <tr><td style="background-color:lime;"></td><td>lime</td><td>#00ff00</td></tr>
+				  <tr><td style="background-color:limegreen;"></td><td>limegreen</td><td>#32cd32</td></tr>
+				  <tr><td style="background-color:mediumaquamarine;"></td><td>mediumaquamarine</td><td>#66cdaa</td></tr>
+				  <tr><td style="background-color:mediumseagreen;"></td><td>mediumseagreen</td><td>#3cb371</td></tr>
+				  <tr><td style="background-color:mediumspringgreen;"></td><td>mediumspringgreen</td><td>#00fa9a</td></tr>
+				  <tr><td style="background-color:mediumturquoise;"></td><td>mediumturquoise</td><td>#48d1cc</td></tr>
+				  <tr><td style="background-color:mintcream;"></td><td>mintcream</td><td>#f5fffa</td></tr>
+				  <tr><td style="background-color:olive;"></td><td>olive</td><td>#808000</td></tr>
+				  <tr><td style="background-color:olive;"></td><td>olivedrab</td><td>#6b8e23</td></tr>
+				  <tr><td style="background-color:palegreen;"></td><td>palegreen</td><td>#98fb98</td></tr>
+				  <tr><td style="background-color:seagreen;"></td><td>seagreen</td><td>#2e8b57</td></tr>
+				  <tr><td style="background-color:springgreen;"></td><td>springgreen</td><td>#00ff7f</td></tr>
+				  <tr><td style="background-color:teal;"></td><td>teal</td><td>#008080</td></tr>
+				  <tr><td style="background-color:yellowgreen;"></td><td>yellowgreen</td><td>#9acd32</td></tr>
+			  </tbody>
+		  </table>
+	 </section>
+	   <section>
+	  <h2>Yellow/Orange/Brown</h2>
+		  <table>
+			  <thead>
+				  <tr><th>Color</th><th>Name</th><th>Hex</th></tr>	  
+			  </thead>
+			  <tbody>
+				  
+				  <tr><td style="background-color:antiquewhite;"></td><td>antiquewhite</td><td>#faebd7</td></tr>
+				  <tr><td style="background-color:beige;"></td><td>beige</td><td>#f5f5dc</td></tr>
+				  <tr><td style="background-color:bisque;"></td><td>bisque</td><td>#ffe4c4</td></tr>
+				  <tr><td style="background-color:blanchedalmond;"></td><td>blanchedalmond</td><td>#ffebcd</td></tr>
+				  <tr><td style="background-color:brown;"></td><td>brown</td><td>#a52a2a</td></tr>
+				  <tr><td style="background-color:burlywood;"></td><td>burlywood</td><td>#deb887</td></tr>
+				  <tr><td style="background-color:chocolate;"></td><td>chocolate</td><td>#d2691e</td></tr>
+				  <tr><td style="background-color:coral;"></td><td>coral</td><td>#ff7f50</td></tr>
+			          <tr><td style="background-color:cornsilk;"></td><td>cornsilk</td><td>#fff8dc</td></tr>
+				  <tr><td style="background-color:darkgoldenrod;"></td><td>darkgoldenrod</td><td>#b8860b</td></tr>
+				  <tr><td style="background-color:darkkhaki;"></td><td>darkkhaki</td><td>#bdb76b</td></tr>
+				  <tr><td style="background-color:darkorange;"></td><td>darkorange</td><td>#ff8c00</td></tr>
+				  <tr><td style="background-color:floralwhite;"></td><td>floralwhite</td><td>#fffaf0</td></tr>
+				  <tr><td style="background-color:gold;"></td><td>gold</td><td>#gold</td></tr>
+				  <tr><td style="background-color:goldenrod;"></td><td>goldenrod</td><td>#daa520</td></tr>
+				  <tr><td style="background-color:ivory;"></td><td>ivory</td><td>#fffff0</td></tr>
+				  <tr><td style="background-color:khaki;"></td><td>khaki</td><td>#f0e68c</td></tr>
+				  <tr><td style="background-color:lemonchiffon;"></td><td>lemonchiffon</td><td>#fffacd</td></tr>
+				  <tr><td style="background-color:lightgoldenrodyellow;"></td><td>lightgoldenrodyellow</td><td>#fafad2</td></tr>
+				  <tr><td style="background-color:lightsalmon;"></td><td>lightsalmon</td><td>#ffa07a</td></tr>
+				  <tr><td style="background-color:lightyellow;"></td><td>lightyellow</td><td>#ffffe0</td></tr>
+				  <tr><td style="background-color:linen;"></td><td>linen</td><td>#faf0e6</td></tr>
+			          <tr><td style="background-color:moccasin;"></td><td>moccasin</td><td>#ffe4b5</td></tr>
+				  <tr><td style="background-color:navajowhite;"></td><td>navajowhite</td><td>#ffdead</td></tr>
+				  <tr><td style="background-color:oldlace;"></td><td>oldlace</td><td>#fdf5e6</td></tr>
+				  <tr><td style="background-color:orange;"></td><td>orange</td><td>#ffa500</td></tr>
+				  <tr><td style="background-color:palegoldenrod;"></td><td>palegoldenrod</td><td>#eee8aa</td></tr>
+				  <tr><td style="background-color:papayawhip;"></td><td>papayawhip</td><td>#ffefd5</td></tr>
+				  <tr><td style="background-color:peachpuff;"></td><td>peachpuff</td><td>#ffdab9</td></tr>
+				  <tr><td style="background-color:peru;"></td><td>peru</td><td>#cd853f</td></tr>
+				  <tr><td style="background-color:saddlebrown;"></td><td>saddlebrown</td><td>#8b4513</td></tr>
+				  <tr><td style="background-color:sandybrown;"></td><td>sandybrown</td><td>#f4a460</td></tr>
+				  <tr><td style="background-color:seashell;"></td><td>seashell</td><td>#fff5ee</td></tr>
+				  <tr><td style="background-color:sienna;"></td><td>sienna</td><td>#a0522d</td></tr>
+				  <tr><td style="background-color:snow;"></td><td>snow</td><td>#fffafa</td></tr>
+				  <tr><td style="background-color:tan;"></td><td>tan</td><td>#d2b48c</td></tr>
+				  <tr><td style="background-color:wheat;"></td><td>wheat</td><td>#f5deb3</td></tr>
+				  <tr><td style="background-color:yellow;"></td><td>yellow</td><td>#ffff00</td></tr>
+			  </tbody>
+		  </table>
+	 </section>
+	  <section>
+	  <h2>Red</h2>
+		  <table>
+			  <thead>
+				  <tr><th>Color</th><th>Name</th><th>Hex</th></tr>	  
+			  </thead>
+			  <tbody>
+				  
+				  <tr><td style="background-color:crimson;"></td><td>crimson</td><td>#dc143c</td></tr>
+				  <tr><td style="background-color:darkred;"></td><td>darkred</td><td>#8b0000</td></tr>
+				  <tr><td style="background-color:darksalmon;"></td><td>darksalmon</td><td>#e9967a</td></tr>
+				  <tr><td style="background-color:deeppink;"></td><td>deeppink</td><td>#ff1493</td></tr>
+				  <tr><td style="background-color:firebrick;"></td><td>firebrick</td><td>#b22222</td></tr>
+				  <tr><td style="background-color:fuchsia;"></td><td>fuchsia</td><td>#ff00ff</td></tr>
+				  <tr><td style="background-color:hotpink;"></td><td>hotpink</td><td>#ff69b4</td></tr>
+				  <tr><td style="background-color:indianred;"></td><td>indianred</td><td>#cd5c5c</td></tr>
+				  <tr><td style="background-color:lavenderblush;"></td><td>lavenderblush</td><td>#fff0f5</td></tr>
+				  <tr><td style="background-color:lightcoral;"></td><td>lightcoral</td><td>#f08080</td></tr>
+				  <tr><td style="background-color:lightpink;"></td><td>lightpink</td><td>#ffb6c1</td></tr>
+				  <tr><td style="background-color:maroon;"></td><td>maroon</td><td>#800000</td></tr>
+				  <tr><td style="background-color:mediumvioletred;"></td><td>mediumvioletred</td><td>#c71585</td></tr>
+				  <tr><td style="background-color:mistyrose;"></td><td>mistyrose</td><td>#ffe4e1</td></tr>
+				  <tr><td style="background-color:orangered;"></td><td>orangered</td><td>#ff4500</td></tr>
+				  <tr><td style="background-color:orchid;"></td><td>orchid</td><td>#da70d6</td></tr>
+				  <tr><td style="background-color:palevioletred;"></td><td>palevioletred</td><td>#db7093</td></tr>
+				  <tr><td style="background-color:pink;"></td><td>pink</td><td>#ffc0cb</td></tr>
+				  <tr><td style="background-color:red;"></td><td>red</td><td>#ff0000</td></tr>
+				  <tr><td style="background-color:rosybrown;"></td><td>rosybrown</td><td>#bc8f8f</td></tr>
+				  <tr><td style="background-color:salmon;"></td><td>salmon</td><td>#fa8072</td></tr>
+				  <tr><td style="background-color:tomato;"></td><td>tomato</td><td>#ff6347</td></tr>
+				  <tr><td style="background-color:violet;"></td><td>violet</td><td>#ee82ee</td></tr>
+			  </tbody>
+		  </table>
+	 </section>
+  </main>
+<script>
+	/* Make the iframe hidden while loading  */
+(async () => {
+  let div = document.createElement('div');
+  let ref = document.getElementsByTagName('base')[0] || 
+            document.getElementsByTagName('script')[0];
+
+  div.innerHTML = '<style> iframe { visibility: hidden; } </style>';
+  ref.parentNode.insertBefore(div, ref);
+})();  
+
+/* Copy the contents of the iframe into the DOM and execute scripts  */
+function disappear(frame) {
+let body = (frame.contentDocument.body||frame.contentDocument);
+
+frame.before(body);
+
+frame.remove();
+}
+</script>
+  
+  <script src='https://tinylytics.app/embed/ty-z3nCjHzz9nhTen2UU.js?hits' defer></script>
+</body>
+
+</html>
