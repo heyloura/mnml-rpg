@@ -31,4 +31,7 @@
   {{- range .Site.Params.plugins_css }}
   <link rel="stylesheet" href="{{ . }}" />
   {{- end }}
+  {{ if templates.Exists "partials/microhook-head.html" }}
+  {{ partial "microhook-head.html" . }}
+  {{ end }}
 </head>
